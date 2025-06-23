@@ -150,7 +150,7 @@ KBUILD_IMAGE	:= $(boot)/Image.gz
 
 # Don't compile Image in mixed build with "all" target
 ifndef KBUILD_MIXED_TREE
-all:	Image.gz dtbo.img $(KBUILD_DTB_IMG)
+all:	Image.gz
 endif
 
 
